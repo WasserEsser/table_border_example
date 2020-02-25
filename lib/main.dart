@@ -25,8 +25,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    final double oneSixth = MediaQuery.of(context).size.width / 6;
-
     return Scaffold(
       appBar: AppBar(
         title: Text("Table Border Example"),
